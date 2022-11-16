@@ -74,6 +74,7 @@
 		<Test-Cycle-Report provarHome="${provar.home}"
 								projectPath="${testproject.home}" 
 					        	testCyclePath="${testcycle.path}"
+		                        smtpPath="${testproject.home}/.smtp"
 								reportPath="${testcycle.path}/Report.pdf"
 								failBuildIfFailures="true"
 								invokeTestRunMonitor="true"
